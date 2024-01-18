@@ -19,7 +19,7 @@ nav:
       - about-civicactions/annual-summit.md
   - Employee benefits:
       - employee-benefits/README.md
-      - Personal Time Off (PTO): employee-benefits/README.md
+      - Personal Time Off (US employees): employee-benefits/README.md
       - employee-benefits/us-compensation.md
       - employee-benefits/us-tech-stipend.md
       - employee-benefits/canada-benefits-policy.md
@@ -28,6 +28,7 @@ nav:
       - employee-benefits/employee-referral-bonus.md
       - employee-benefits/on-call-stipend.md
   - Company policies:
+      - company-policies/README.md
       - company-policies/expenses.md
       - company-policies/travel-time-tracking-and-expenses.md
       - company-policies/timesheets.md
@@ -38,6 +39,7 @@ nav:
           - company-policies/employment/us/introductory-period.md
           - company-policies/anti-harassment-policies.md
           - company-policies/covid19-safety.md
+      - company-policies/prohibited-hardware-and-software.md
       - company-policies/code-of-conduct.md
       - company-policies/employment/workplace-guidelines.md
       - company-policies/annual-review-process.md
@@ -74,13 +76,11 @@ nav:
       - common-practices-tools/gold-star-program.md
       - Security awareness and tools:
           - common-practices-tools/security/README.md
-          - Setting up and using Yubikey:
-              - common-practices-tools/security/yubikey/README.md
-              - common-practices-tools/security/yubikey/linux.md
-              - common-practices-tools/security/yubikey/macosx.md
+          - common-practices-tools/security/yubikey.md
           - common-practices-tools/security/drupal-rmf-support.md
           - common-practices-tools/security/encryption.md
           - common-practices-tools/security/gnupg.md
+          - common-practices-tools/security/securing-your-workspace.md
           - Incidents:
               - common-practices-tools/security/contingency-plan.md
               - common-practices-tools/security/incident-response-checklist.md
@@ -97,6 +97,7 @@ nav:
           - common-practices-tools/software-and-support/google-meet.md
           - common-practices-tools/software-and-support/jira.md
           - common-practices-tools/software-and-support/markdown.md
+          - common-practices-tools/software-and-support/sauce-labs.md
           - common-practices-tools/software-and-support/slack.md
           - common-practices-tools/software-and-support/trello.md
           - common-practices-tools/software-and-support/zoom.md
@@ -113,6 +114,11 @@ nav:
           - practice-areas/engineering/accessibility.md
           - Drupal:
               - practice-areas/engineering/drupal/README.md
+              - practice-areas/engineering/drupal/drupal-for-everyone.md
+              - practice-areas/engineering/drupal/drupal-for-project-teams.md
+              - practice-areas/engineering/drupal/drupal-for-engineers.md
+              - practice-areas/engineering/drupal/drupal-for-drupal-engineers.md
+              - practice-areas/engineering/drupal/drupal-glossary.md
               - practice-areas/engineering/drupal/most-important-decision-in-developing-a-drupal-site-contributed-vs-custom-development.md
               - practice-areas/engineering/drupal/drupal-developer-tips-for-getting-the-most-out-of-open-source.md
           - practice-areas/engineering/git.md
@@ -137,7 +143,7 @@ nav:
           - practice-areas/project-management/onboarding-new-project-team-member.md
           - practice-areas/project-management/planning-onsite-meetings.md
           - practice-areas/project-management/project-calendar.md
-          - practice-areas/project-management/pm-role.md
+          - practice-areas/project-management/README.md
           - practice-areas/project-management/starting-new-project.md
           - practice-areas/project-management/team-working-agreements-instructions.md
           - practice-areas/project-management/templates.md
@@ -146,6 +152,7 @@ nav:
       - Project support:
           - practice-areas/help-desk/README.md
           - Overview: practice-areas/help-desk/README.md
+          - practice-areas/help-desk/project-support-accessibility-guidelines.md
           - practice-areas/help-desk/help-desk-agile.md
           - practice-areas/help-desk/working-practices.md
           - practice-areas/help-desk/project-support-checklist.md
